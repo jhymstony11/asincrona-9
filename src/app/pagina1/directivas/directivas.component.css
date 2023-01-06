@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(236, 124, 124);
+}
+
+.click{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.parrafo{
+    display: flex;
+    justify-content: center;
+}

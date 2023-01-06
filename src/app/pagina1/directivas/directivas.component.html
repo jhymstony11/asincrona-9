@@ -1,0 +1,25 @@
+<body>
+    
+    <section class="click">
+        <h1>SESION 09 RETO</h1>
+        <input type="checkbox" value="click aqui" (click)="mostrar=!mostrar" (click)="ocultar=!ocultar">
+        <label for="baloncesto">Click aqui</label>
+        <p *ngIf="mostrar">Activa el checkbox para mostrar el contenido</p>
+    </section>
+
+    <article class="imagen">
+        <img *ngIf="ocultar" src="../../../assets/descarga.png">
+    </article>
+
+    <article class="titulo">
+        <h2 *ngIf="ocultar">ANGULAR</h2>
+    </article>
+
+    <article class="parrafo">
+        <p *ngIf="ocultar">Angular es un framework de ingeniería <br> de software de código abierto mantenido <br> por Google, que sirve para desarrollar <br> aplicaciones web de estilo Single Page <br> Application (SPA) y Progressive Web App <br> (PWA). Sirve tanto para versiones móviles <br> como de escritorio. </p>
+    </article>
+</body>
+
+
+
+
